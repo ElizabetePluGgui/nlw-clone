@@ -17,20 +17,6 @@ body{
   color: var(--cinza-texto);
   font-family: 'Roboto', sans-serif;
 }
-/* p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-} */
-h1{
-  color: var(--cinza-claro);
-}
-
-.App{
-  margin: 0 1em;
-}
 
 .hero{
   margin-bottom: -35em;
@@ -63,7 +49,15 @@ h1{
   max-width: 254px;
 }
 
-.hero-information .hero-p {
+.hero-information .hero-aspas img {
+ 
+  align-items: center;
+  position: relative; 
+  margin-left: 57em; 
+  margin-bottom: -3em ;
+}
+
+.hero-information .hero-p  {
   font-size: 18px;
   text-align: left;
   align-items: center;
@@ -73,6 +67,7 @@ h1{
   
   color: var(--cinza-texto);
 }
+
 .hero-information .hero-nome {
   font-size: 18px;
   text-align: left;
@@ -81,6 +76,7 @@ h1{
   color: var(--white);
   margin-left: 54em; 
 }
+
 .hero-information .css-1k6yql2 {
   font-size: 18px;
   text-align: left;
@@ -89,6 +85,7 @@ h1{
   color: var(--cinza-texto);
   margin-left: 54em; 
 }
+
 .button{
   display: inline-block;
   border-radius: 3px;
@@ -101,113 +98,42 @@ h1{
   border-bottom: 5px solid rgb(73, 45, 138);
 }
 
-
-.header{
-  margin-top: 2em;
-  font-size: 18px;
-}
-
-.header img{
-  width: 40%;
-}
-
-.header-info{
-  margin-top: 2em;
-  display: flex;
-  color: var(--cinza-claro);
-}
-
-.header-info div{
-  margin-right: 1em;
-}
-
-.icon{
-  color: var(--verde)
-}
-
-.new-content{
-  color: var(--amarelo);
-}
-.about img{
-  width: 50%;
-  position: relative;
- 
-  margin-left: 550px; 
-}
-
-
 .about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 50em;
+  margin-bottom: 1em;
+  margin-top: -8em;
+  margin-left: 49em;
+}
+
+.about .about-image img{
+  width: 55%;
+  margin-top: 13em;
+  margin-left: 10em;
+  margin-bottom: 15em;
+}
+
+.h1 {
   color: var(--cinza-claro);
+  margin-left: -0.4em;
 }
-
-/* .highlight{
-  color: var(--verde);
-}
-
-.pillar{
-  border-left: 2px solid var(--roxo);
-  padding: 0 2em;
-  margin-bottom: 3em;
-}
-
-.pillar h1{
-  font-size: 24px;
-}
-
-.disclaimer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 3em;
-  color: var(--verde);
-  text-align: left;
-}
-
-.company-numbers{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.number {
-  margin: 2em 0.5em;
-  width: 45%;
-  border-top: 6px solid var(--roxo);
-}
-
-.number h1{
-  font-size: 2.5em;
-  line-height: 18px;
-}
-
-.number span{
-  color: var(--verde);
-}
-
-.disclaimer h1{
+.p {  
   color: var(--cinza-claro);
+  margin-bottom: 3em;
+  margin-left: -1em;
 }
 
-.disclaimer img{
-  width: 80%;
+.highlight {
+  color: var(--verde);
+  margin-left: -1em;
 }
 
-.content-footer{
-  margin-top: 3em;
-  margin-bottom: 5em;
-  font-size: 0.8em;
-} */
 
 @media only screen and (min-width: 60em){
   .App{
     margin: 0 5em;
     background-image: url('./assets/background.png');
     background-size: 120em;
-    background-position-x: -45em;
-    background-position-y: 45em;
+    background-position-x: -41em;
+    background-position-y: 50em;
     background-repeat: no-repeat;
   }
 
